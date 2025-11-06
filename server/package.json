@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "body-parser": "^2.2.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
@@ -23,6 +24,7 @@
     "nodemon": "^3.1.10",
     "passport": "^0.7.0",
     "passport-google-oauth2": "^0.2.0",
-    "passport-google-token": "^0.1.2"
+    "passport-google-token": "^0.1.2",
+    "react-markdown": "^10.1.0"
   }
 }

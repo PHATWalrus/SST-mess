@@ -6,6 +6,7 @@ import "./config/passport.js";
 import vendorModel from "./models/vendor.model.js";
 import connectDB from "./config/dbconfig.js";
 import vendorRoute from "./routes/vendor.route.js";
+import chatbotRoute from "./routes/chatbot.route.js";
 import cookieParser from "cookie-parser";
 
 dotenv.config({ quiet: true });
@@ -33,6 +34,7 @@ app.get("/heathcheck", (req, res) => {
 
 app.use("/auth", authRouter);
 app.use("/vendor", vendorRoute);
+app.use("/chatbot", chatbotRoute);
 connectDB();
 
 // app.get("/addvendor",async(req,res)=>{

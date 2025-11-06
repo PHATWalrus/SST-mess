@@ -120,3 +120,56 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Chatbot Markdown Styles */
+.chatbot-markdown {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.chatbot-markdown a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.chatbot-markdown a:hover {
+  text-decoration: underline;
+  color: #1d4ed8;
+}
+
+.chatbot-markdown strong {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.chatbot-markdown ul,
+.chatbot-markdown ol {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+.chatbot-markdown li {
+  margin: 0.25rem 0;
+}
+
+.chatbot-markdown p {
+  margin: 0.5rem 0;
+}
+
+.chatbot-markdown h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.chatbot-markdown code {
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-family: monospace;
+}
