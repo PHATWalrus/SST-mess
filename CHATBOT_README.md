@@ -23,7 +23,7 @@ An AI-powered chatbot that helps students get information about mess vendors, th
 2. **Configure Environment Variables**
    The Gemini API key has been added to `server/.env`:
    ```
-   GEMINI_API_KEY=AIzaSyBscbO7-HHmAl9o86Glc5TNr27CQ71_Syc
+   GEMINI_API_KEY= YOUR_GEMINI_API_KEY
    ```
 
 3. **Files Added**
